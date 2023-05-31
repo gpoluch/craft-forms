@@ -1,6 +1,8 @@
-import { LightningElement, track } from 'lwc';
+import { LightningElement, track, wire } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
+import { APPLICATION_SCOPE, MessageContext, subscribe, unsubscribe } from 'lightning/messageService';
 import getAccountsByName from '@salesforce/apex/AccountController.getAccountsByName';
+import refreshMessageChannel from '@salesforce/messageChannel/refreshMessageChannel__c';
 import ID_FIELD from '@salesforce/schema/Account.Id';
 import NAME_FIELD from '@salesforce/schema/Account.Name';
 import BILLING_COUNTRY_FIELD from '@salesforce/schema/Account.BillingCountry';
@@ -33,6 +35,39 @@ export default class AccountSearch extends LightningElement {
         search,
         typeExactNameAndClickSearchButton
     };
+
+    @wire(MessageContext)
+    messageContext;
+
+    connectedCallback() {
+        this.isLoading = false;
+        this.subscribeToMessageChannel();
+    }
+
+    disconnectedCallback() {
+        this.unsubscribeToMessageChannel();
+    }
+
+    subscribeToMessageChannel() {
+        if (!this.subscription) {
+            this.subscription = subscribe(
+                this.messageContext,
+                refreshMessageChannel,
+                (message) => this.handleMessage(message),
+                { scope: APPLICATION_SCOPE }
+            );
+        }
+    }
+
+    unsubscribeToMessageChannel() {
+        unsubscribe(this.subscription);
+        this.subscription = null;
+    }
+
+    handleMessage() {
+        this.phrase = null;
+        this._refreshAccounts();
+    }
 
     handlePhraseChange(event) {
         this.phrase = event.target.value;

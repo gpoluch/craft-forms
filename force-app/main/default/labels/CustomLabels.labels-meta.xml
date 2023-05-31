@@ -65,6 +65,22 @@
         <value>Name</value>
     </labels>
     <labels>
+        <fullName>Refresh</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Refresh</shortDescription>
+        <value>Refresh</value>
+    </labels>
+    <labels>
+        <fullName>RefreshForms</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Refresh Forms</shortDescription>
+        <value>Refresh Forms</value>
+    </labels>
+    <labels>
         <fullName>Save</fullName>
         <categories>CraftForms</categories>
         <language>en_US</language>

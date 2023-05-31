@@ -33,6 +33,14 @@
         <name>Name</name>
     </customLabels>
     <customLabels>
+        <label>Odśwież</label>
+        <name>Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label>Odśwież formluarze</label>
+        <name>RefreshForms</name>
+    </customLabels>
+    <customLabels>
         <label>Zapisz</label>
         <name>Save</name>
     </customLabels>

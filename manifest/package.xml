@@ -12,7 +12,9 @@
         <members>ChangesSavedSuccessfully</members>
         <members>EditMode</members>
         <members>Loading</members>
-        <members>Name</members>        
+        <members>Name</members>
+        <members>Refresh</members>    
+        <members>RefreshForms</members>    
         <members>Save</members>
         <members>Search</members>
         <members>Success</members>
@@ -32,7 +34,12 @@
         <members>accountCreator</members>
         <members>accountSearch</members>
         <members>accountSearchResults</members>
+        <members>dataRefresh</members>
         <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>refreshMessageChannel</members>
+        <name>LightningMessageChannel</name>
     </types>
     <types>
         <members>Admin</members>
@@ -40,7 +47,7 @@
         <name>Profile</name>
     </types>
     <types>
-    <members>pl</members>
+        <members>pl</members>
         <name>Translations</name>
     </types>
     <version>57.0</version>
