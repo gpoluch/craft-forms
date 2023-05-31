@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>AccountController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>AccountCreator</members>
+        <members>AccountSearch</members>
         <members>AccountWithNameCreatedSuccessfully</members>
+        <members>BillingCountry</members>
+        <members>ChangesSavedSuccessfully</members>
+        <members>EditMode</members>
+        <members>Loading</members>
+        <members>Name</members>        
         <members>Save</members>
+        <members>Search</members>
         <members>Success</members>
+        <members>TypeExactNameAndClickSearchButton</members>
+        <members>ViewMode</members>
         <name>CustomLabel</name>
     </types>
     <types>
@@ -17,6 +30,8 @@
     </types>
     <types>
         <members>accountCreator</members>
+        <members>accountSearch</members>
+        <members>accountSearchResults</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
@@ -24,8 +39,8 @@
         <members>Standard</members>
         <name>Profile</name>
     </types>
-        <types>
-        <members>pl</members>
+    <types>
+    <members>pl</members>
         <name>Translations</name>
     </types>
     <version>57.0</version>

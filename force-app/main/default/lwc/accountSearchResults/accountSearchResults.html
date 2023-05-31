@@ -1,0 +1,30 @@
+<template>
+    <div class="slds-grid slds-grid_align-end slds-var-m-around_medium">
+        <lightning-button-stateful
+            class="slds-col"
+            label-when-off={label.viewMode}
+            label-when-on={label.editMode}
+            variant="brand"
+            icon-name-when-off="utility:preview"
+            icon-name-when-on="utility:edit"
+            selected={isEditable}
+            onclick={handleChangeModeClick}
+        >
+        </lightning-button-stateful>
+    </div>
+    <div class="slds-is-relative container">
+        <lightning-datatable
+            key-field="Id"
+            data={rows}
+            hide-checkbox-column
+            columns={columns}
+            onsave={handleSave}
+            oncancel={handleCancel}
+            draft-values={draftValues}
+            show-row-number-column
+        ></lightning-datatable>
+        <div if:true={isLoading}>
+            <lightning-spinner variant="brand" alternative-text={label.loading} size="medium"> </lightning-spinner>
+        </div>
+    </div>
+</template>
