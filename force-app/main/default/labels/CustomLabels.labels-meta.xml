@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AccountCreator</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account Creator</shortDescription>
+        <value>Account Creator</value>
+    </labels>
+    <labels>
+        <fullName>AccountSearch</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account Search</shortDescription>
+        <value>Account Search</value>
+    </labels>
+    <labels>
+        <fullName>AccountWithNameCreatedSuccessfully</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account with name created successfully</shortDescription>
+        <value>Account with name ({0}) created successfully</value>
+    </labels>
+    <labels>
+        <fullName>BillingCountry</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Billing Country</shortDescription>
+        <value>Billing Country</value>
+    </labels>
+    <labels>
+        <fullName>ChangesSavedSuccessfully</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Changes saved successfully</shortDescription>
+        <value>Changes saved successfully</value>
+    </labels>
+    <labels>
+        <fullName>EditMode</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Mode</shortDescription>
+        <value>Edit Mode</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Loading</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Refresh</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Refresh</shortDescription>
+        <value>Refresh</value>
+    </labels>
+    <labels>
+        <fullName>RefreshForms</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Refresh Forms</shortDescription>
+        <value>Refresh Forms</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>TypeExactNameAndClickSearchButton</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Type exact name and click search button</shortDescription>
+        <value>Type exact name and click search button</value>
+    </labels>
+    <labels>
+        <fullName>ViewMode</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Mode</shortDescription>
+        <value>View Mode</value>
+    </labels>
+</CustomLabels>

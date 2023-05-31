@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>Kreator Konta</label>
+        <name>AccountCreator</name>
+    </customLabels>
+    <customLabels>
+        <label>Wyszukiwanie Konta</label>
+        <name>AccountSearch</name>
+    </customLabels>
+    <customLabels>
+        <label>Konto o nazwie ({0}) zostało utworzone pomyślnie</label>
+        <name>AccountWithNameCreatedSuccessfully</name>
+    </customLabels>
+    <customLabels>
+        <label>Kraj rozliczeniowy</label>
+        <name>BillingCountry</name>
+    </customLabels>
+    <customLabels>
+        <label>Zmiany zostały zapisane pomyślnie</label>
+        <name>ChangesSavedSuccessfully</name>
+    </customLabels>
+    <customLabels>
+        <label>Tryb Edycji</label>
+        <name>EditMode</name>
+    </customLabels>
+    <customLabels>
+        <label>Ładowanie danych</label>
+        <name>Loading</name>
+    </customLabels>
+    <customLabels>
+        <label>Nazwa</label>
+        <name>Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Odśwież</label>
+        <name>Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label>Odśwież formluarze</label>
+        <name>RefreshForms</name>
+    </customLabels>
+    <customLabels>
+        <label>Zapisz</label>
+        <name>Save</name>
+    </customLabels>
+    <customLabels>
+        <label>Wyszukaj</label>
+        <name>Search</name>
+    </customLabels>
+    <customLabels>
+        <label>Sukces</label>
+        <name>Success</name>
+    </customLabels>
+    <customLabels>
+        <label>Wprowadź nazwę konta i kliknij wyszukaj</label>
+        <name>TypeExactNameAndClickSearchButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Tryb odczytu</label>
+        <name>ViewMode</name>
+    </customLabels>
+    <customTabs>
+        <label>Formularz Craftware</label>
+        <name>CraftForms</name>
+    </customTabs>
+</Translations>
