@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title={label.accountCreator}>
+        <div class="slds-var-p-around_medium">
+            <lightning-record-edit-form object-api-name={objectApiName} onsuccess={handleSuccess}>
+                <lightning-messages> </lightning-messages>
+                <lightning-input-field field-name={nameField}></lightning-input-field>
+                <lightning-button
+                    class="slds-align_absolute-center"
+                    variant="brand"
+                    type="submit"
+                    label={label.save}
+                ></lightning-button>
+            </lightning-record-edit-form>
+        </div>
+    </lightning-card>
+</template>

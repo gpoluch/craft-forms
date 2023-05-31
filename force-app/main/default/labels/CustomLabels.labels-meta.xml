@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AccountCreator</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account Creator</shortDescription>
+        <value>Account Creator</value>
+    </labels>
+    <labels>
+        <fullName>AccountWithNameCreatedSuccessfully</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account with name created successfully</shortDescription>
+        <value>Account with name ({0}) created successfully</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <categories>CraftForms</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+</CustomLabels>
