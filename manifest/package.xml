@@ -2,10 +2,17 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AccountController</members>
+        <members>AccountControllerTests</members>
         <members>AccountTriggerHandler</members>
+        <members>AccountTriggerHandlerTests</members>
+        <members>AccountTriggerHandlerUtils</members>
+        <members>AccountTriggerHandlerUtilsTests</members>
         <members>Constants</members>
         <members>CreditCardResponse</members>
+        <members>CreditCardsCalloutMock</members>
         <members>CreditCardsWebServiceClient</members>
+        <members>CreditCardsWebServiceClientTests</members>
+        <members>TestUtils</members>
         <members>TriggerHandler</members>
         <members>TriggerHandlerTests</members>
         <members>WebServiceClient</members>

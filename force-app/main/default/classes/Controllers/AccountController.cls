@@ -17,7 +17,8 @@ public with sharing class AccountController {
     @AuraEnabled
     public static void updateAccounts(List<Account> accountsToUpdate) {
         try {
-            update accountsToUpdate;
+            SObjectAccessDecision decision = Security.stripInaccessible(AccessType.UPDATABLE, accountsToUpdate);
+            update decision.getRecords();
         } catch (Exception e) {
             throw new AuraHandledException(e.getMessage());
         }
