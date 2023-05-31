@@ -5,6 +5,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Account.CreditCard__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>AccountCreator</members>
         <members>AccountSearch</members>
         <members>AccountWithNameCreatedSuccessfully</members>
